@@ -8,12 +8,14 @@ xu - the upper guess
 es - the desired relative error (defaults to 0.0001%)
 maxit - the maximum number of iterations to use (defaults to 200)
 varargin,... - any additional parameters used by the function
+
 ---
 ### Outputs:
 root - the estimated root location
 fx - the function evaluated at the root location
 ea - the approximate relative error (%)
 iter - how many iterations were performed
+
 ---
 ### Example:
 In order to find the root of the function x^4^ - x^3^ - x^2^ - x - 1 you must define the function within MATLAB
