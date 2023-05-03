@@ -17,7 +17,8 @@ Create a vector of equally spaced independent variable values and a seperate vec
 > x = [0 5 10 15 20 25 30];  
 > y = [0 9 13 14 10.5 12 5];
 
-Then call the function in MATLAB:
-> Simpson(x,y)
+You can now assign a variable to the output, and use the function Simpson with the vectors created above.
+> I = Simpson(x,y)
 
-In this case, $320$ is the numerical solution to the integral.
+In this case, the command window will display the following:
+> I = 320
