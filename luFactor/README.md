@@ -19,4 +19,4 @@ Create a matrix with the coefficients of the system of equations.
 Use the matrix in the luFactor function. You can assign variables to the outputs of the function.
 > [L, U, P] = luFactor(A)
 
-In this case, the command window will display the values of L, U, and P.
+In this case, the command window will display the matrices of L, U, and P.
