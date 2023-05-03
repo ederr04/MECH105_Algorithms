@@ -4,7 +4,7 @@ For this function to work, both vectors must be the same length.
 
 ---
 ### Inputs:
-x - the vector of equally spaced independent variable
+x - the vector of equally spaced independent variable  
 y - the vector of function values with respect to x
 
 ---
