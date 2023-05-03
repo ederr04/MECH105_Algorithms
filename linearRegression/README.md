@@ -10,8 +10,8 @@ y - y-values for data set
 ### Outputs:
 fX - x-values with outliers removed  
 fY - y-values with outliers removed  
-slope - slope from the linear regression y=mx+b
-intercept - intercept from the linear regression y=mx+b
+slope - slope from the linear regression y=mx+b  
+intercept - intercept from the linear regression y=mx+b  
 Rsquared - coefficient of determination (R^2)
 
 ---
