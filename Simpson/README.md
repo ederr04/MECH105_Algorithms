@@ -1,32 +1,23 @@
-# False Position
-Estimates the root of a function using the closed method, false position. All that is needed are two initial guesses of where the root is, and function. This method is usually faster than the bisection method.
+# Simpson
+Numerical evaluation of an integral using Simpson's 1/3 Rule
+For this function to work, both vectors must be the same length.
 
 ---
 ### Inputs:
-func - the function being evaluated  
-xl - the lower guess  
-xu - the upper guess  
-es - the desired relative error (defaults to 0.0001%)  
-maxit - the maximum number of iterations to use (defaults to 200)  
-varargin,... - any additional parameters used by the function
+x - the vector of equally spaced independent variable
+y - the vector of function values with respect to x
 
 ---
 ### Outputs:
-root - the estimated root location  
-fx - the function evaluated at the root location  
-ea - the approximate relative error (%)  
-iter - how many iterations were performed  
+I - the numerical itergral calculated
 
 ---
 ### Example:
-In order to find the root of the function $x^4-x^3-x^2-x-1$ you must define the function within MATLAB
-> f = @(x) x.^4 - x.^3 - x.^2 - x - 1;
+Create a vector of equally spaced independent variable values and a seperate vector of function falues with respect to x. Keep in mind that both vectors must be the same length.
+> x = [0 5 10 15 20 25 30];
+> y = [0 9 13 14 10.5 12 5];
 
-Then you use the falsePosition function and give two initial guesses to where the root is, and any adition parameters you want.
-> falsePosition(f,1,2)
+Then call the function in MATLAB:
+> Simpson(x,y)
 
-In this case, the command window will display the follwing:
-> root = 1.927562  
-> f(root) = -0.000001  
-> approximate error = 0.000041  
-> This took 7 iterations
+In this case, $320$ is the numerical solution to the integral.
