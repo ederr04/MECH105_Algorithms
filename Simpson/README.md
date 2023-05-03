@@ -14,7 +14,7 @@ I - the numerical itergral calculated
 ---
 ### Example:
 Create a vector of equally spaced independent variable values and a seperate vector of function falues with respect to x. Keep in mind that both vectors must be the same length.
-> x = [0 5 10 15 20 25 30];
+> x = [0 5 10 15 20 25 30];  
 > y = [0 9 13 14 10.5 12 5];
 
 Then call the function in MATLAB:
