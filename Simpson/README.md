@@ -1,5 +1,6 @@
 # False Position
 Estimates the root of a function using the closed method, false position. All that is needed are two initial guesses of where the root is, and function. This method is usually faster than the bisection method.
+
 ---
 ### Inputs:
 func - the function being evaluated
